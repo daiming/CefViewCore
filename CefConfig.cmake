@@ -1,7 +1,7 @@
 #
 # The link for downloading the CEF binary sdk 
 #
-set(CEF_SDK_VERSION "cef_binary_89.0.12+g2b76680+chromium-89.0.4389.90")
+set(CEF_SDK_VERSION "cef_binary_89.0.18+gb36241d+chromium-89.0.4389.114")
 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # Generally, there is NO NEED to modify the following config
@@ -9,7 +9,7 @@ set(CEF_SDK_VERSION "cef_binary_89.0.12+g2b76680+chromium-89.0.4389.90")
 # Download CEF binary package
 #
 if(OS_WINDOWS)
-  set(CEF_SDK_PLATFORM "windows64")
+  set(CEF_SDK_PLATFORM "windows32")
 elseif (OS_LINUX)
   set(CEF_SDK_PLATFORM "linux64")
 elseif(OS_MACOS)
